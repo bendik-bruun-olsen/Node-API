@@ -4,15 +4,26 @@
   "description": "",
   "main": "server.mjs",
   "scripts": {
-    "dev": "nodemon server.mjs"
+    "dev": "nodemon server.mjs",
+    "lint": "eslint"
   },
   "author": "Endre Jordal",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.1",
+    "globals": "^15.0.0",
     "nodemon": "^3.1.0"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^9.6.0",
     "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "joi-password": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
     "uuid": "^9.0.1"
   }
 }

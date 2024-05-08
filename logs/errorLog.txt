@@ -1,0 +1,158 @@
+25.04.2024	12:33:01	b35e487f-56c1-4d4c-b789-b880d4f54d93	GET	/api/productss	404	Not found.
+25.04.2024	12:51:23	528a8561-fec4-4d79-b552-4f81f0de9bd5	GET	/api/productss	404	Not found.
+25.04.2024	12:51:39	453054bb-b2f2-4b24-8d87-f1d384432f9a	PATCH	/api/products	405	You can't do that. Stahp.
+25.04.2024	13:39:54	ee76f30d-85c3-4f7d-b6e8-995f4504a07d	GET	/api/produc	404	Not found.
+25.04.2024	14:40:57	ef35837e-f27b-4445-9b4b-35ae82d7b849	PATCH	/api/orders	405	PATCH not supported on this endpoint. Please refer to the API documentation
+25.04.2024	14:42:40	46d63855-e285-4e1b-82e1-fe8220cfb94f	PATCH	/api/orders/1003	405	PATCH not supported on this endpoint. Please refer to the API documentation
+25.04.2024	14:43:10	449c86d1-0766-4de0-94f8-597ea221456c	GET	/api/orders/hello	403	OrderId must be a number, not letters.
+25.04.2024	14:43:31	02bd4684-5e17-4d20-8149-c784af7934d5	GET	/api/orders/hello	403	OrderId must be a number, not letters.
+25.04.2024	14:44:43	d7fe2f0f-3d93-4708-b318-23eb942fddb1	GET	/api/123	404	Not found.
+25.04.2024	14:46:16	4a22c8ae-00c3-44d7-9c76-86f08791c39e	GET	/api/orders/103	undefined	
+29.04.2024	12:30:13	1b18b42f-52bc-4175-98b6-d71d28dc4527	GET	/images/pic.jpg	404	Not found.
+29.04.2024	12:30:13	d29065c5-a76d-461b-8d54-b271f75d6e3d	GET	/favicon.ico	404	Not found.
+29.04.2024	12:31:02	bf539294-eded-45b2-8f51-6ec5cb17d174	GET	/api/products	undefined	no such table: products
+29.04.2024	12:32:37	259e6b8a-61ef-4473-8720-6a2155cedf4a	GET	/api/products	undefined	no such table: products
+29.04.2024	12:34:00	b2114325-5be8-48ac-be80-fc6b1ec18231	GET	/api/products	undefined	no such table: products
+29.04.2024	12:49:08	9d4c1d20-66db-4f19-80d2-d26ab50c7c6b	GET	/api/products?category=electronics	undefined	incomplete input
+29.04.2024	12:49:17	754734cd-8393-4308-90ff-be12cb8af2a8	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:49:20	86ab74f6-9ae1-46e6-a8b8-412f4fd02a62	GET	/api/products?category=Electronic	undefined	incomplete input
+29.04.2024	12:49:42	377a5313-edbc-4342-bcbb-c1313e5ba0e0	GET	/api/products?category=Electronic	undefined	incomplete input
+29.04.2024	12:49:47	fffd7675-3ba3-47d5-a2f6-11fb2dd141fa	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:49:47	43d33219-557e-49b7-a253-a726f48df198	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:49:48	bb2cce0e-0fa7-470f-b0e2-040fb8769d88	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:49:48	7741d435-4ebd-4836-a847-0d8128b1d674	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:50:00	d4aaf61a-9e4d-4415-81bd-fdf9d583472d	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:50:00	6c5af191-56ba-4c7f-928c-dca691b12142	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:50:00	65e68679-1819-4a3b-ab97-0cc6b27d4776	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	12:50:54	eb1cddf8-7f78-4475-9d11-2cd3c101fe05	GET	/api/products?category=Electronics	undefined	incomplete input
+29.04.2024	13:35:26	a24287f5-c823-449d-97cc-0714c70b51e0	GET	/api/products/51	405	Unsupported request method. Please refer to the API documentation.
+29.04.2024	13:37:14	a047be0c-f6c1-454b-b78c-43e6344e01ef	GET	/api/products/513243	undefined	Cannot read properties of undefined (reading 'length')
+29.04.2024	13:37:37	61911b19-bc0d-49e7-813a-f7f1a4834b43	GET	/api/products/513243	undefined	Cannot read properties of undefined (reading 'length')
+29.04.2024	13:38:54	f391d645-1238-4c7d-b9f7-bf522cc8e091	GET	/api/products/5131231	404	Product with id 5131231 not found.
+29.04.2024	13:49:13	a3efb607-b9f1-49e1-8dd8-a44eb59906c7	DELETE	/api/products/62	404	Product with id 62 not found.
+29.04.2024	13:50:43	b3f59b32-76da-467d-975a-1649335767e6	DELETE	/api/products/60	404	Product with id 60 not found.
+30.04.2024	12:09:16	8c0ca836-350c-4e4e-8f08-f7fd974f034c	GET	/api/products/60	404	CANNOT FETCH: Product with id 60 not found.
+30.04.2024	12:26:26	d7212acb-e63a-453c-8bc2-fe3f11be017a	PUT	/api/products/5?name=couch	404	CANNOT UPDATE: Product with id: 5
+30.04.2024	12:26:46	738eb685-57a7-433c-aad1-5d552ff56d52	PUT	/api/products/5?name=couch	404	CANNOT UPDATE: Product with id: 5
+30.04.2024	12:29:16	46d8a495-fb59-4d53-b945-144b91e44338	PUT	/api/products/13	404	CANNOT UPDATE: Product with id: 13
+30.04.2024	12:29:47	eb0b3ef9-b5d2-4bd2-9c4b-9f271d5d9bbe	PUT	/api/products/13	400	Unexpected token '"', ""data": {
+"... is not valid JSON
+30.04.2024	12:29:55	424fb392-3c05-4d63-9c44-3128265c09d8	PUT	/api/products/13	404	CANNOT UPDATE: Product with id: 13
+30.04.2024	12:30:37	a12825e4-d31d-4eff-831c-7b7bd7a0ca6e	GET	/api/products/13	400	Expected ',' or '}' after property value in JSON at position 19 (line 3 column 5)
+30.04.2024	12:31:02	60536275-8a9a-4260-8670-c918da28a1c1	PUT	/api/products/13	404	CANNOT UPDATE: Product with id: 13
+30.04.2024	12:33:39	6ca29b2e-2139-4333-9334-12b2b24a1d5c	PUT	/api/products/13	undefined	checkProduct is not defined
+30.04.2024	12:34:36	815a6fd4-686e-4fe2-b36f-a6e6f163c8de	PUT	/api/products/13	undefined	checkProduct is not defined
+30.04.2024	13:23:40	499bda0f-c05d-44ca-86d4-73d726a918d8	POST	/api/signup	403	incomplete input
+30.04.2024	13:24:27	0db000cd-d32c-4304-9be9-0b15591fe510	POST	/api/signup	403	incomplete input
+30.04.2024	13:24:53	bd0b25ea-daeb-4ed0-8d24-a442c8928dea	POST	/api/signup	403	incomplete input
+30.04.2024	13:26:16	f2514f3e-d44c-4430-b096-e73c41e30d76	POST	/api/signup	403	incomplete input
+30.04.2024	13:27:28	cbf5cb7c-95a5-4bed-84b5-c2d907d95e5e	POST	/api/signup	403	incomplete input
+30.04.2024	13:27:28	65678d63-05e5-41b1-a7c8-adf6248abcd5	POST	/api/signup	403	incomplete input
+30.04.2024	13:27:28	96314391-3d45-4678-9e35-4b46bed64072	POST	/api/signup	403	incomplete input
+30.04.2024	13:27:29	d51f8c44-b2b0-451e-bbb1-8cbd45ec2619	POST	/api/signup	403	incomplete input
+30.04.2024	13:30:22	72a052cb-e980-4546-aae9-aa92016f2659	POST	/api/signup	403	incomplete input
+30.04.2024	13:31:20	4c7ff500-17b3-413c-b85a-b3079392a7eb	POST	/api/signup	403	incomplete input
+30.04.2024	13:34:35	968d12dd-991d-489f-97f9-4a79d8ef483d	POST	/api/signup	403	incomplete input
+30.04.2024	13:35:47	da60913a-0d10-45b9-93a1-94bffee74b20	POST	/api/signup	403	Assignment to constant variable.
+30.04.2024	13:36:09	66c34250-eef8-428e-87bc-e489aa0a7c01	POST	/api/signup	403	incomplete input
+30.04.2024	13:39:38	a25df337-571d-430a-929c-46895774c424	POST	/api/signup	403	incomplete input
+30.04.2024	13:39:52	82a3ab85-aa9e-4741-a397-c95b23749658	POST	/api/signup	403	incomplete input
+30.04.2024	13:48:53	5d9cb50b-e14d-46ab-a486-842561be5d2d	POST	/api/login	403	Authentication failed.
+02.05.2024	12:28:36	7c40ddcf-fbb2-4a0b-91c6-9f9d8024408e	GET	/api/signup	undefined	405 is not a function
+02.05.2024	12:29:16	ed52ec37-d487-4651-9631-a28f11f7cd42	GET	/api/signup	400	Unexpected non-whitespace character after JSON at position 56 (line 4 column 2)
+02.05.2024	12:29:20	872d52a0-da89-47ed-8cc8-a24582be5da0	GET	/api/signup	undefined	405 is not a function
+02.05.2024	12:30:40	aeb93ec0-de73-4d20-9a1e-94d4cb498a61	GET	/api/signup	undefined	405 is not a function
+02.05.2024	12:32:52	68c9a7b2-9466-4b3c-b394-e1f875ad19b8	GET	/api/signup	undefined	405 is not a function
+02.05.2024	12:33:23	60a0c83f-72fc-48d7-9b13-9d570947b8a0	POST	/api/signup	403	UNIQUE constraint failed: users.email
+02.05.2024	12:33:35	30956ada-2fef-4533-a63e-055644897fcb	GET	/api/signup	undefined	405 is not a function
+02.05.2024	12:34:11	77fc62ee-ef89-46e9-90a3-e54a05e3a305	GET	/api/signup	undefined	405 is not a function
+06.05.2024	10:08:47	81a0892f-643c-4b8e-8db3-9b2421d75409	GET	/api/orders/	undefined	data is not defined
+06.05.2024	10:09:22	6ef317c7-f9ba-406c-9ac1-8ef95b28a393	GET	/api/orders/	undefined	data is not defined
+06.05.2024	10:16:26	f6afe084-5fcd-496a-b234-d8ca3840ccb1	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:16:45	d26ca3b5-6900-46a3-be6d-cc9d1772a4fd	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:16:55	ad9052f6-e2d0-490d-811b-9fd8b4bb6060	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:18:05	1bd87b6b-a7fd-44bb-8ae9-f55589e73276	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:18:24	6306f601-20bc-4adb-8a88-0d75e9ecd7cd	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:18:51	3626f3ff-0d4b-4358-ba0a-92032095376a	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:19:19	09ce82ea-c602-44d4-816a-ae1bd5ca49ec	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:19:21	0822d597-aa3d-4577-81b4-3b2c3f2d7aa1	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:19:21	87bc1561-79b5-4c59-afa2-aa8c390eacc8	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:19:35	e5c7ac58-a624-4c9d-bdbe-7f8b35483761	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:21:21	a6910725-7022-4e64-826b-d964a4b468ed	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:21:58	84c257a2-7d30-4dc6-8cd2-49649eba5aa8	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:27:29	0e084e23-8a19-43d1-989b-32bf4ebf33f5	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	10:28:14	bde8811e-8c09-4b88-b1ae-5fa8d28577d8	POST	/api/orders/	400	Unexpected token '"', ""order": {"... is not valid JSON
+06.05.2024	11:10:16	0fda6c78-c00b-4a96-8e5c-578173bd2bf6	POST	/api/orders/	undefined	incomplete input
+06.05.2024	11:11:48	d42a5572-24da-4b3c-850e-16b418313893	POST	/api/orders/	undefined	incomplete input
+06.05.2024	11:12:48	28bb6d69-a796-4416-86cc-0bdba745ae38	POST	/api/orders/	undefined	incomplete input
+06.05.2024	11:13:45	0cd738c1-7e0b-48ee-a76f-01c7caa00d53	POST	/api/orders/	undefined	incomplete input
+06.05.2024	11:14:35	f87fc4a4-acdf-4dd8-a246-3fdf63c851ed	POST	/api/orders/	undefined	incomplete input
+06.05.2024	11:15:30	53eb0598-3d1d-4c9c-a9c5-3030d2ae2c5c	POST	/api/orders/	undefined	incomplete input
+06.05.2024	11:15:40	05d8c240-55b5-498b-a93b-0234bba91b17	POST	/api/orders/	undefined	last_insert_rowid is not defined
+06.05.2024	11:16:10	588277c2-4335-478d-8138-ef5fc0b9a09e	POST	/api/orders/	undefined	last_insert_rowid is not defined
+06.05.2024	11:16:28	7cdd6962-a459-4681-87da-78d66914d137	POST	/api/orders/	undefined	last_insert_rowid is not defined
+06.05.2024	11:39:28	c71e9ebf-10e0-4986-abc2-24f80d151476	POST	/api/orders/	undefined	db.last_insert_rowid is not a function
+06.05.2024	11:43:22	a2a0a1ee-6fc0-4aec-97b0-946f44198f8c	POST	/api/orders/	undefined	Cannot read properties of undefined (reading 'lastID')
+06.05.2024	11:49:48	6e6be05c-cc1c-4f81-9b6a-59c0a80110f5	POST	/api/orders/	undefined	Cannot read properties of undefined (reading 'lastID')
+06.05.2024	11:54:17	e484d84c-64ca-47bc-a924-7f309a87a865	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	11:54:20	69b9d410-5dc5-4732-8c69-ce083be8d329	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	11:55:08	cb3d8750-116c-414a-97f5-adc5ff454c2c	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	11:57:59	a2a47469-e8df-4fc9-b9ef-8c65930636b6	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	11:58:27	8428f444-6b3d-4a67-a8bd-8a2a5e3ddcba	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	11:59:20	38bd158c-560b-4049-8bf5-948ac4a3ae90	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:07:31	b1e1d7ba-8c43-4c1d-89c9-470a29dbd333	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:10:33	9cfb4a79-4a85-4b63-8b5c-c47ee357d06f	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:17:27	2fe8baaa-89ab-4c5f-9c0d-3e980de0925d	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:17:55	4db3864f-315a-4d2d-8d86-6a200575f63e	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:22:52	1d570440-6e96-41a7-ac7f-1edbfaba4444	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:24:52	4df4cdef-575c-4e1c-804d-a7f88c2f095b	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:28:34	35348ebd-7a72-485e-9f6b-90bf28c5daad	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:30:24	41453ecd-4e06-4c9d-8693-1646ab9c8f04	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:30:34	1997ad6e-6c74-4866-ab55-b2f15fb02263	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	12:31:07	8aba0078-b385-47d9-871c-fb746f3882ff	POST	/api/orders/	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+06.05.2024	14:10:49	d568a97e-7959-4978-9502-3f2d177b77f7	DELETE	/api/orders/5	undefined	d is not defined
+06.05.2024	14:11:35	7869dfd2-f626-45ee-bf3d-a3160f69d02e	DELETE	/api/orders/5	undefined	d is not defined
+06.05.2024	14:13:16	1f6c231b-a256-4620-901b-b530fd26567d	DELETE	/api/orders/5	undefined	d is not defined
+06.05.2024	14:13:22	35c5ad60-ab51-41f3-aea4-9b093335f9fc	DELETE	/api/orders/2	undefined	d is not defined
+06.05.2024	14:14:03	017bff5b-a0b6-49c8-ba22-604414103dd8	DELETE	/api/orders/2	undefined	d is not defined
+06.05.2024	14:15:41	6439f1ef-bde8-431e-bb9f-9c938d5039ae	DELETE	/api/orders/2	undefined	SQLite3 can only bind numbers, strings, bigints, buffers, and null
+07.05.2024	09:19:47	4adc138f-7dbb-4807-b56e-337527ece203	GET	/api/orders/32sad	403	OrderId must be a number.
+07.05.2024	10:12:16	6b4ffd2e-acbf-4498-b860-de5630b4791a	GET	/api/orders/2	404	Unable to retrieve data for order: 2
+07.05.2024	10:15:15	53b6e0f1-c4f4-456c-a6ea-1a744cef0c47	GET	/api/orders/1s	403	OrderId must be a number.
+07.05.2024	10:15:57	91f2cc65-09ef-4e6d-aa9a-9a93535dc92f	GET	/api/orders/2	404	Unable to retrieve data for order: 2
+07.05.2024	11:24:40	58addb69-b6f7-42d9-91ba-827f8b92002d	GET	/api/orders/2	404	Unable to retrieve data for order: 2
+07.05.2024	11:24:50	1c417347-37ed-4730-b309-1741aa700216	DELETE	/api/orders/2	404	Unable to delete order: 2
+07.05.2024	11:30:12	a8335b47-80fa-4a07-8b36-a9b00f735d23	DELETE	/api/orders/17	undefined	FOREIGN KEY constraint failed
+07.05.2024	11:31:36	d3c9f263-92db-4ada-b80e-926539f811c5	DELETE	/api/orders/17	undefined	FOREIGN KEY constraint failed
+07.05.2024	11:32:20	55741282-eef5-41fb-8b09-88cf1dd957f4	DELETE	/api/orders/17	undefined	FOREIGN KEY constraint failed
+07.05.2024	11:32:33	52332fbd-8c99-4153-aac7-d71727c79cf5	DELETE	/api/orders/17	undefined	FOREIGN KEY constraint failed
+07.05.2024	11:32:34	5b32b26a-56df-4de8-a082-00d2d960709f	DELETE	/api/orders/17	undefined	FOREIGN KEY constraint failed
+07.05.2024	12:57:12	9e12ac7b-480d-42de-94cc-c92494b1a0fe	POST	/api/signup	403	UNIQUE constraint failed: users.email
+07.05.2024	12:57:24	173fb64d-b7bf-4a93-9ca2-6b340c4e9b89	POST	/api/signup	400	"email" must be a valid email
+07.05.2024	14:15:10	ad545d4e-fe7f-4ef2-87c2-cdc39643c993	POST	/api/signup	400	
+07.05.2024	14:33:00	060c933f-7c8b-411e-80a5-1e9c05e72673	POST	/api/signup	400	
+07.05.2024	14:35:33	c3839ed3-1865-43b0-8898-782010e58770	POST	/api/signup	400	
+07.05.2024	14:35:37	06c8feea-cff8-4948-9bd3-51f125bc737b	POST	/api/signup	402	
+07.05.2024	14:37:24	8d2c9821-1d8a-4ecf-a7bd-e7c8b2a11481	POST	/api/signup	400	
+07.05.2024	14:37:45	5fcc8f47-12f0-4161-aa85-c511c85162e0	POST	/api/signup	400	
+07.05.2024	14:38:07	8740ac25-b931-4102-8d5b-e97ad104e9f0	POST	/api/signup	400	
+07.05.2024	14:39:00	eb668f6a-64f7-4a10-8aa0-984865122b5e	POST	/api/signup	400	
+07.05.2024	14:39:01	2581ebfc-b02e-4a60-92fd-2f279fe3b5aa	POST	/api/signup	400	
+07.05.2024	14:39:19	2dc15455-a941-445b-8012-0bda248bdb0c	POST	/api/signup	400	
+07.05.2024	14:39:35	b8a6aeb7-2853-4d2f-9750-81a05f1472ab	POST	/api/signup	400	
+07.05.2024	14:40:44	cdb73699-a1d7-4e0b-8ff3-d097feacd799	POST	/api/signup	400	
+07.05.2024	14:41:16	15619347-de09-4094-ad85-bccf572ea336	POST	/api/signup	400	
+07.05.2024	14:41:42	9616b2ff-56df-4516-abb2-1b1680a12a1c	POST	/api/signup	400	
+07.05.2024	14:42:02	927ac537-f823-4b56-af95-138ef3b58914	POST	/api/signup	400	
+07.05.2024	14:44:15	e6d87f59-fb1b-484f-b557-c145c8b92eda	POST	/api/signup	400	
+07.05.2024	14:44:27	3a591c86-b54d-4600-bc1d-59790cd5dd46	POST	/api/signup	400	
+07.05.2024	14:44:51	1f9c75d0-5a1c-49fe-9eef-f3b0aff83d17	POST	/api/signup	400	
+07.05.2024	14:44:53	ded97957-b791-426b-bbb8-43fb7e7e0264	POST	/api/signup	400	
+07.05.2024	14:45:45	db23fd15-e0db-4610-8c2e-fc467f491bf0	POST	/api/signup	400	
+07.05.2024	14:46:34	54729355-7d0a-4e02-944c-806250752273	POST	/api/signup	400	
+07.05.2024	14:47:01	8ecfa18f-db4a-4e66-af3d-9d9787c9d18a	POST	/api/signup	400	
+07.05.2024	14:47:18	9a3b4e79-e842-4a39-9a2f-fa9728b07544	POST	/api/signup	400	"email" must be a valid email --- "password" should contain at least 2 special character --- "password" should contain at least 2 uppercase character --- 
+07.05.2024	14:47:41	1cfdb7e6-5a81-4bc0-888d-55fbd8b03bbc	POST	/api/signup	400	"email" must be a valid email --- "password" should contain at least 2 special character --- "password" should contain at least 2 uppercase character --- 
+07.05.2024	14:48:25	0dcdc53b-96ed-4b59-9399-fd60a882d74f	POST	/api/signup	400	"email" must be a valid email --- "password" should contain at least 2 special character --- "password" should contain at least 2 uppercase character --- 
+07.05.2024	14:48:37	b154b66d-690d-4991-b2a1-c7cb848f8fd3	POST	/api/signup	400	"email" must be a valid email --- "password" should contain at least 2 uppercase character --- 
+07.05.2024	14:48:44	5c9662c9-94b3-44df-9edb-458ad01beea3	POST	/api/signup	400	"email" must be a valid email --- 
