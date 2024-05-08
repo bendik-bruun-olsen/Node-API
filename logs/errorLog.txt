@@ -156,3 +156,19 @@
 07.05.2024	14:48:25	0dcdc53b-96ed-4b59-9399-fd60a882d74f	POST	/api/signup	400	"email" must be a valid email --- "password" should contain at least 2 special character --- "password" should contain at least 2 uppercase character --- 
 07.05.2024	14:48:37	b154b66d-690d-4991-b2a1-c7cb848f8fd3	POST	/api/signup	400	"email" must be a valid email --- "password" should contain at least 2 uppercase character --- 
 07.05.2024	14:48:44	5c9662c9-94b3-44df-9edb-458ad01beea3	POST	/api/signup	400	"email" must be a valid email --- 
+08.05.2024	19:56:48	8382a49b-2c2a-4adf-8069-3a6f35677686	DELETE	/api/orders/17	undefined	FOREIGN KEY constraint failed
+08.05.2024	19:58:38	8a878734-cbff-4dce-9c56-3f8f219bf8ac	DELETE	/api/orders/17	undefined	FOREIGN KEY constraint failed
+08.05.2024	20:20:09	fb919993-f4d8-4122-ba0b-3e9512ba131e	DELETE	/api/orders/16	404	Unable to delete order: 16
+08.05.2024	20:20:29	c11eeca7-b26b-40ed-8a20-f0be57340b4a	DELETE	/api/orders/16	404	Unable to delete order: 16
+08.05.2024	20:20:46	07eba876-e843-4456-96fb-0d8f1ca2c578	DELETE	/api/orders/16	404	bUnable to delete order: 16
+08.05.2024	20:21:21	f343ecfc-9cdd-4382-bed5-0d08e5ec13bb	GET	/api/orders/16	404	Unable to retrieve data for order: 16
+08.05.2024	21:03:40	4ed2067d-e0dc-472e-9b47-f644ea54f16b	GET	/api/products/2	undefined	productId is not defined
+08.05.2024	21:04:14	848eced4-eb3a-4b00-becc-d1b0c34ed1fd	GET	/api/products/2	undefined	productId is not defined
+08.05.2024	21:05:17	b15b1f00-fc5f-4fb2-ba35-fafb5506b292	GET	/api/products/2	undefined	Too few parameter values were provided
+08.05.2024	21:10:11	af018913-e7ea-4960-8d92-4fd4038842ab	DELETE	/api/products/2	undefined	productId is not defined
+08.05.2024	21:20:03	e6e2078a-ba78-4b69-866c-2cd4ac2056b2	POST	/api/products/4	405	POST not supported on this endpoint. Please refer to the API documentation
+08.05.2024	21:21:13	f53201fe-9daf-43b4-a75d-aa10a68fe8fd	PUT	/api/products/4	400	"category" is required --- 
+08.05.2024	21:53:31	0ead7bb8-ee3b-488f-9f22-9447419ba465	GET	/api/orders/3	404	Unable to retrieve data for order: 3
+08.05.2024	21:54:42	85c440e3-70cc-4a5a-aa29-2a23ffbd8e15	PUT	/api/orders	405	PUT not supported on this endpoint. Please refer to the API documentation
+08.05.2024	21:55:24	0df72b05-710d-4a1f-9263-b00f311d8750	POST	/api/orders/4	405	POST not supported on this endpoint. Please refer to the API documentation
+08.05.2024	21:55:27	a833f69b-a94c-4dfd-a4f9-506345056458	PUT	/api/orders/4	405	PUT not supported on this endpoint. Please refer to the API documentation
